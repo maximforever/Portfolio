@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portfolio</title>
+  <title>Maxim Pekarskiy's Portfolio</title>
 
   <link href='https://fonts.googleapis.com/css?family=Roboto:500,100,700,300italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -15,24 +15,22 @@
 
 <div class = "header">
 	<div class = "container">
-
+		
 		<div class = "row">
-
 			<div class = "col-md-8">
 				<ul>
 					<li>About</li>
 					<li>Philosophy</li>
 					<li>Toolkit</li>
 					<li>Contact</li>
-
 				</ul>
 			</div>
 
-			<div class = "col-md-4">
+		
+
+			<div class = "col-md-4 name right">
 				Maxim Pekarsky
 			</div>
-
-
 
 		</div>
 
@@ -42,5 +40,25 @@
 
 	<%= yield %>
 
+	<div class = "footer">
+		<div class = "container">
+
+		<div class = "row">	
+			<div class = "col-md-4 name">
+				<p>&copy 2015 Maximum Productions</p>
+
+			</div>
+
+			<div class = "col-md-8 right">
+				<ul>
+					<li><%= image_tag("github6.png") %></li>
+					<li><%= image_tag("linkedin1.png") %></li>
+					<li><%= image_tag("facebook3.png") %></li>
+				</ul>
+			</div>	
+		</div>
+
+
+	</div>
 </body>
 </html>
